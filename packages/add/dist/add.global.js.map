@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.ts", "../src/remove.ts", "../src/add.ts"],
+  "sourcesContent": ["export { add } from './add';", "export function remove(a: number, b: number) {\n  return a - b\n}", "import { remove } from './remove'\nexport function add(c: number, d: number) {\n  return c + d + remove(c, d)\n}"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;;;ACAO,WAAS,OAAO,GAAW,GAAW;AAC3C,WAAO,IAAI;AAAA,EACb;;;ACDO,WAAS,IAAI,GAAW,GAAW;AACxC,WAAO,IAAI,IAAI,OAAO,GAAG,CAAC;AAAA,EAC5B;",
+  "names": []
+}
