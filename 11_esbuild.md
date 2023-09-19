@@ -6,7 +6,6 @@ theme: vue-pro
 highlight:
 ---
 
-
 ## 初始化环境
 
 创建文件夹，开始试验
@@ -542,15 +541,3 @@ export function reactive(target) {
   return proxy
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
