@@ -5,7 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node ./scripts/dev.js reactivity -f=esm",
+    "dev":"npm run dev:esm",
+    "dev:cjs": "node ./scripts/dev.js reactivity -f=cjs",
+    "dev:global": "node ./scripts/dev.js reactivity -f=global",
+    "dev:esm": "node ./scripts/dev.js reactivity -f=esm",
+    "dev-add:cjs": "node ./scripts/dev.js add -f=cjs",
+    "dev-add:global": "node ./scripts/dev.js add -f=global",
+    "dev-add:esm": "node ./scripts/dev.js add -f=esm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
